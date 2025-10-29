@@ -1,0 +1,45 @@
+.results-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.export-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 480px) {
+  .export-buttons {
+    flex-direction: row;
+  }
+}
+
+.meal-plan {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.day-plan {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.day-plan h3 {
+  margin-top: 0;
+}
+
+.day-plan ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.day-plan li {
+  margin-bottom: 0.5rem;
+}

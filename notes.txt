@@ -1,0 +1,2 @@
+# Command to run locally and make accessible from network devices
+npx vite --host
